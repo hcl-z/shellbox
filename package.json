@@ -1,0 +1,53 @@
+{
+  "name": "shellbox",
+  "version": "1.0.0",
+  "description": "create box view in shell",
+  "author": "hcl-z 1401859664@qq.com",
+  "license": "MIT",
+  "homepage": "https://github.com/hcl-z/shellbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcl-z/shellbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hcl-z/shellbox/issues",
+    "email": "1401859664@qq.com"
+  },
+  "keywords": [
+    "cli",
+    "view",
+    "ui",
+    "box",
+    "table",
+    "cli-table",
+    "column",
+    "row"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "release": "bumpp",
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.25.0",
+    "@biomejs/biome": "^1.1.2",
+    "@types/node": "^22.1.0",
+    "bumpp": "^9.4.1",
+    "eslint": "^9.8.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-width": "^4.1.0"
+  }
+}
