@@ -1,5 +1,6 @@
 {
   "name": "shellbox",
+  "type": "module",
   "version": "1.0.0",
   "description": "create box view in shell",
   "author": "hcl-z 1401859664@qq.com",
@@ -34,7 +35,14 @@
     "lint:fix": "eslint --fix",
     "release": "bumpp",
     "dev": "tsup --watch",
-    "build": "tsup"
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-width": "^4.1.0",
+    "string-width": "^7.2.0",
+    "strip-ansi": "^7.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.25.0",
@@ -44,10 +52,6 @@
     "eslint": "^9.8.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
-    "vitest": "^0.34.4"
-  },
-  "dependencies": {
-    "chalk": "^5.3.0",
-    "cli-width": "^4.1.0"
+    "vitest": "^2.0.5"
   }
 }
