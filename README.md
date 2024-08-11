@@ -42,7 +42,7 @@ export interface BaseStyle {
 
 ### View
 <div align="center">
-  <img src="./screenshots/view.png" alt="Example Image" >
+  <img src="screenshots/view.png" alt="Example Image" >
 </div>
 
 ```ts
@@ -64,7 +64,7 @@ View({
 
 ### Row
 <div align="center">
-  <img src="./screenshots/row.png" alt="Example Image" >
+  <img src="screenshots/row.png" alt="Example Image" >
 </div>
 
 ```ts
@@ -103,7 +103,7 @@ Row({
 
 ### List
 <div align="center">
-  <img src="./screenshots/list-v.png" alt="Example Image" >
+  <img src="screenshots/list-v.png" alt="Example Image" >
 </div>
 
 ```ts
@@ -131,7 +131,7 @@ List({
 
 ### Table
 <div align="center">
-  <img src="./screenshots/table.png" alt="Example Image" >
+  <img src="screenshots/table.png" alt="Example Image" >
 </div>
 
 ```ts
